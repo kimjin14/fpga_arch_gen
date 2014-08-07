@@ -1,0 +1,239 @@
+________________________________________________________________________
+                       VPR - The Next Generation                        
+                     Version 0.A15.0 (Linux X86/64)                     
+            This is free open source code under MIT license.            
+________________________________________________________________________
+
+VPR FPGA Placement and Routing.
+Version: Version 7.0
+Compiled: Jul 21 2014.
+University of Toronto
+vpr@eecg.utoronto.ca
+This is free open source code under MIT license.
+
+Architecture file: sample_arch.xml
+Circuit name: temp/ch_intrinsics.pre-vpr.blif
+
+Building complex block graph.
+WARNING(1): io[0].clock[0] unconnected pin in architecture.
+Loop for doall = 0, init_parse took 6e-06 seconds.
+Loop for doall = 0 took 0.005263 seconds.
+Loop for doall = 1, init_parse took 0.004173 seconds.
+Loop for doall = 1 took 0.004525 seconds.
+Swept away 0 nets with no fanout.
+Net is a constant generator: top^memory_controller_out~8.
+WARNING(2): logical_block #1161 with output top^memory_controller_out~8 has only 0 pin.
+WARNING(3): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~9.
+WARNING(4): logical_block #1162 with output top^memory_controller_out~9 has only 0 pin.
+WARNING(5): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~10.
+WARNING(6): logical_block #1163 with output top^memory_controller_out~10 has only 0 pin.
+WARNING(7): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~11.
+WARNING(8): logical_block #1164 with output top^memory_controller_out~11 has only 0 pin.
+WARNING(9): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~12.
+WARNING(10): logical_block #1165 with output top^memory_controller_out~12 has only 0 pin.
+WARNING(11): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~13.
+WARNING(12): logical_block #1166 with output top^memory_controller_out~13 has only 0 pin.
+WARNING(13): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~14.
+WARNING(14): logical_block #1167 with output top^memory_controller_out~14 has only 0 pin.
+WARNING(15): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~15.
+WARNING(16): logical_block #1168 with output top^memory_controller_out~15 has only 0 pin.
+WARNING(17): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~16.
+WARNING(18): logical_block #1169 with output top^memory_controller_out~16 has only 0 pin.
+WARNING(19): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~17.
+WARNING(20): logical_block #1170 with output top^memory_controller_out~17 has only 0 pin.
+WARNING(21): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~18.
+WARNING(22): logical_block #1171 with output top^memory_controller_out~18 has only 0 pin.
+WARNING(23): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~19.
+WARNING(24): logical_block #1172 with output top^memory_controller_out~19 has only 0 pin.
+WARNING(25): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~20.
+WARNING(26): logical_block #1173 with output top^memory_controller_out~20 has only 0 pin.
+WARNING(27): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~21.
+WARNING(28): logical_block #1174 with output top^memory_controller_out~21 has only 0 pin.
+WARNING(29): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~22.
+WARNING(30): logical_block #1175 with output top^memory_controller_out~22 has only 0 pin.
+WARNING(31): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~23.
+WARNING(32): logical_block #1176 with output top^memory_controller_out~23 has only 0 pin.
+WARNING(33): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~24.
+WARNING(34): logical_block #1177 with output top^memory_controller_out~24 has only 0 pin.
+WARNING(35): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~25.
+WARNING(36): logical_block #1178 with output top^memory_controller_out~25 has only 0 pin.
+WARNING(37): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~26.
+WARNING(38): logical_block #1179 with output top^memory_controller_out~26 has only 0 pin.
+WARNING(39): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~27.
+WARNING(40): logical_block #1180 with output top^memory_controller_out~27 has only 0 pin.
+WARNING(41): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~28.
+WARNING(42): logical_block #1181 with output top^memory_controller_out~28 has only 0 pin.
+WARNING(43): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~29.
+WARNING(44): logical_block #1182 with output top^memory_controller_out~29 has only 0 pin.
+WARNING(45): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~30.
+WARNING(46): logical_block #1183 with output top^memory_controller_out~30 has only 0 pin.
+WARNING(47): Block contains output -- may be a constant generator.
+Net is a constant generator: top^memory_controller_out~31.
+WARNING(48): logical_block #1184 with output top^memory_controller_out~31 has only 0 pin.
+WARNING(49): Block contains output -- may be a constant generator.
+0 unconnected blocks in input netlist.
+Input netlist file: 'temp/ch_intrinsics.pre-vpr.blif', model: memset
+Primary inputs: 99, primary outputs: 130
+LUTs: 886, latches: 489, subckts: 0
+# standard absorbable latches: 488
+	LUT size 0 = 24, LUT size 1 = 33, LUT size 2 = 67, LUT size 3 = 22, LUT size 4 = 147, LUT size 5 = 67, LUT size 6 = 526
+Total blocks: 1604, total nets: 1474
+Removed 33 LUT buffers.
+Sweeped away 33 nodes.
+BLIF circuit stats:
+	24 LUTs of size 0
+	0 LUTs of size 1
+	67 LUTs of size 2
+	22 LUTs of size 3
+	147 LUTs of size 4
+	67 LUTs of size 5
+	526 LUTs of size 6
+	99 of type input
+	130 of type output
+	489 of type latch
+	853 of type names
+Timing analysis: ON
+Circuit netlist file: temp/ch_intrinsics.pre-vpr.net
+Circuit placement file: temp/ch_intrinsics.pre-vpr.place
+Circuit routing file: temp/ch_intrinsics.pre-vpr.route
+Circuit SDC file: temp/ch_intrinsics.pre-vpr.sdc
+Operation: RUN_FLOW
+
+Packer: ENABLED
+Placer: ENABLED
+Router: ENABLED
+PackerOpts.allow_early_exit: FALSE
+PackerOpts.allow_unrelated_clustering: TRUE
+PackerOpts.alpha_clustering: 0.750000
+PackerOpts.aspect: 1.000000
+PackerOpts.beta_clustering: 0.900000
+PackerOpts.block_delay: 0.000000
+PackerOpts.cluster_seed_type: TIMING
+PackerOpts.connection_driven: TRUE
+PackerOpts.global_clocks: TRUE
+PackerOpts.hill_climbing_flag: FALSE
+PackerOpts.inter_cluster_net_delay: 1.000000
+PackerOpts.intra_cluster_net_delay: 0.000000
+PackerOpts.recompute_timing_after: 32767
+PackerOpts.sweep_hanging_nets_and_inputs: TRUE
+PackerOpts.timing_driven: TRUE
+
+PlacerOpts.place_freq: PLACE_ONCE
+PlacerOpts.place_algorithm: PATH_TIMING_DRIVEN_PLACE
+PlacerOpts.pad_loc_type: FREE
+PlacerOpts.place_cost_exp: 1.000000
+PlacerOpts.inner_loop_recompute_divider: 0
+PlacerOpts.recompute_crit_iter: 1
+PlacerOpts.timing_tradeoff: 0.500000
+PlacerOpts.td_place_exp_first: 1.000000
+PlacerOpts.td_place_exp_last: 8.000000
+PlaceOpts.seed: 1
+AnnealSched.type: AUTO_SCHED
+AnnealSched.inner_num: 1.000000
+
+RouterOpts.route_type: DETAILED
+RouterOpts.router_algorithm: TIMING_DRIVEN
+RouterOpts.base_cost_type: DELAY_NORMALIZED
+RouterOpts.fixed_channel_width: NO_FIXED_CHANNEL_WIDTH
+RouterOpts.acc_fac: 1.000000
+RouterOpts.bb_factor: 3
+RouterOpts.bend_cost: 0.000000
+RouterOpts.first_iter_pres_fac: 0.500000
+RouterOpts.initial_pres_fac: 0.500000
+RouterOpts.pres_fac_mult: 1.300000
+RouterOpts.max_router_iterations: 50
+RouterOpts.astar_fac: 1.200000
+RouterOpts.criticality_exp: 1.000000
+RouterOpts.max_criticality: 0.990000
+
+RoutingArch.directionality: UNI_DIRECTIONAL
+RoutingArch.switch_block_type: WILTON
+RoutingArch.Fs: 3
+
+Initialize packing.
+Begin packing 'temp/ch_intrinsics.pre-vpr.blif'.
+
+After removing unused inputs...
+	total blocks: 1571, total nets: 1441, total inputs: 99, total outputs: 130
+Begin prepacking.
+Finish prepacking.
+Using inter-cluster delay: 1.33777e-09
+
+SDC file 'temp/ch_intrinsics.pre-vpr.sdc' blank or not found.
+
+Defaulting to: constrain all 0 inputs and 0 outputs on the netlist clock.
+Optimize this clock to run as fast as possible.
+Not enough resources expand FPGA size to x = 2 y = 2.
+Complex block 0: cb.n1739, type: clb
+	................
+Passed route at end.
+Complex block 1: cb.n1744, type: clb
+	................
+Passed route at end.
+Complex block 2: cb.out:top^memory_controller_out~5, type: io
+	
+Passed route at end.
+Complex block 3: cb.out:top^memory_controller_out~1, type: io
+	
+Passed route at end.
+Complex block 4: cb.out:top^memory_controller_out~4, type: io
+	
+Passed route at end.
+Complex block 5: cb.out:top^memory_controller_out~3, type: io
+	
+Passed route at end.
+Complex block 6: cb.out:top^memory_controller_out~6, type: io
+	
+Passed route at end.
+Complex block 7: cb.out:top^memory_controller_out~7, type: io
+	
+Passed route at end.
+Complex block 8: cb.out:top^memory_controller_out~2, type: io
+	
+Passed route at end.
+Complex block 9: cb.out:top^memory_controller_out~0, type: io
+	
+Passed route at end.
+Complex block 10: cb.top^memory_controller_out~0, type: clb
+	.......................
+Passed route at end.
+Complex block 11: cb.top^memory_controller_out~7, type: clb
+	.......................
+Passed route at end.
+Not enough resources expand FPGA size to x = 3 y = 3.
+Complex block 12: cb.top^memory_controller_out~2, type: clb
+	.......................
+Passed route at end.
+Complex block 13: cb.top^memory_controller_out~6, type: clb
+	.......................
+Passed route at end.
+Complex block 14: cb.top^memory_controller_out~5, type: clb
+	.......................
+Passed route at end.
+Complex block 15: cb.top^memory_controller_out~4, type: clb
+	.......................
+Passed route at end.
+Complex block 16: cb.top^memory_controller_out~3, type: clb
+	......................

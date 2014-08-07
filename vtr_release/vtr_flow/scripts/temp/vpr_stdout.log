@@ -1,0 +1,213 @@
+________________________________________________________________________
+                       VPR - The Next Generation                        
+                     Version 0.A15.0 (Linux X86/64)                     
+            This is free open source code under MIT license.            
+________________________________________________________________________
+
+VPR FPGA Placement and Routing.
+Version: Version 7.0
+Compiled: Jul 21 2014.
+University of Toronto
+vpr@eecg.utoronto.ca
+This is free open source code under MIT license.
+
+Architecture file: add4
+Circuit name: add4.blif
+
+Building complex block graph.
+WARNING(1): io[0].clock[0] unconnected pin in architecture.
+Loop for doall = 0, init_parse took 6e-06 seconds.
+Loop for doall = 0 took 0.000136 seconds.
+Loop for doall = 1, init_parse took 0.002927 seconds.
+Loop for doall = 1 took 3.9e-05 seconds.
+Swept away 0 nets with no fanout.
+0 unconnected blocks in input netlist.
+Removed 0 LUT buffers.
+BLIF circuit stats:
+	0 LUTs of size 0
+	0 LUTs of size 1
+	1 LUTs of size 2
+	2 LUTs of size 3
+	1 LUTs of size 4
+	0 LUTs of size 5
+	2 LUTs of size 6
+	8 of type input
+	5 of type output
+	0 of type latch
+	6 of type names
+Timing analysis: ON
+Circuit netlist file: add4.net
+Circuit placement file: add4.place
+Circuit routing file: add4.route
+Circuit SDC file: 
+Operation: RUN_FLOW
+
+Packer: DISABLED
+Placer: DISABLED
+Router: ENABLED
+RouterOpts.route_type: DETAILED
+RouterOpts.router_algorithm: TIMING_DRIVEN
+RouterOpts.base_cost_type: DELAY_NORMALIZED
+RouterOpts.fixed_channel_width: 26
+RouterOpts.acc_fac: 1.000000
+RouterOpts.bb_factor: 3
+RouterOpts.bend_cost: 0.000000
+RouterOpts.first_iter_pres_fac: 0.500000
+RouterOpts.initial_pres_fac: 0.500000
+RouterOpts.pres_fac_mult: 1.300000
+RouterOpts.max_router_iterations: 100
+RouterOpts.astar_fac: 1.200000
+RouterOpts.criticality_exp: 1.000000
+RouterOpts.max_criticality: 0.990000
+
+RoutingArch.directionality: UNI_DIRECTIONAL
+RoutingArch.switch_block_type: WILTON
+RoutingArch.Fs: 3
+
+Begin parsing packed FPGA netlist file.
+Finished parsing packed FPGA netlist file.
+Netlist generated from file 'add4.net'.
+
+Netlist num_nets: 14
+Netlist num_blocks: 16
+Netlist <EMPTY> blocks: 0.
+Netlist clb blocks: 3.
+Netlist inputs pins: 8
+Netlist output pins: 5
+
+Auto-sizing FPGA at x = 4 y = 4
+Auto-sizing FPGA at x = 2 y = 2
+Auto-sizing FPGA at x = 1 y = 1
+FPGA auto-sized to x = 2 y = 2
+The circuit will be mapped into a 2 x 2 array of clbs.
+
+Resource usage...
+	Netlist      0	blocks of type: <EMPTY>
+	Architecture 4	blocks of type: <EMPTY>
+	Netlist      13	blocks of type: io
+	Architecture 64	blocks of type: io
+	Netlist      3	blocks of type: clb
+	Architecture 4	blocks of type: clb
+
+
+SDC file '' blank or not found.
+
+Defaulting to: constrain all 0 inputs and 0 outputs on a virtual external clock.
+Optimize this virtual clock to run as fast as possible.
+Build rr_graph took 0.000607 seconds.
+Confirming Router Algorithm: TIMING_DRIVEN.
+
+Routing iteration: 1
+Wire length after first iteration 104, total available wire length 312, ratio 0.333333
+Critical path: 2.41952 ns
+Routing iteration took 0.000251 seconds.
+
+Routing iteration: 2
+Critical path: 2.41952 ns
+Routing iteration took 0.000194 seconds.
+
+Routing iteration: 3
+Critical path: 2.41952 ns
+Routing iteration took 0.000207 seconds.
+
+Routing iteration: 4
+Critical path: 2.41952 ns
+Routing iteration took 0.000215 seconds.
+
+Routing iteration: 5
+Critical path: 2.41952 ns
+Routing iteration took 0.000223 seconds.
+
+Routing iteration: 6
+Critical path: 2.41952 ns
+Routing iteration took 0.000244 seconds.
+
+Routing iteration: 7
+Critical path: 2.41952 ns
+Routing iteration took 0.000226 seconds.
+
+Routing iteration: 8
+Critical path: 2.41952 ns
+Routing iteration took 0.000243 seconds.
+
+Routing iteration: 9
+Critical path: 2.41952 ns
+Routing iteration took 0.000232 seconds.
+
+Routing iteration: 10
+Critical path: 2.41952 ns
+Routing iteration took 0.00021 seconds.
+
+Routing iteration: 11
+Critical path: 2.41952 ns
+Routing iteration took 0.0002 seconds.
+
+Routing iteration: 12
+Critical path: 2.41952 ns
+Routing iteration took 0.000203 seconds.
+
+Routing iteration: 13
+Critical path: 2.49481 ns
+Routing iteration took 0.000203 seconds.
+
+Routing iteration: 14
+Successfully routed after 14 routing iterations.
+Completed net delay value cross check successfully.
+
+Checking to ensure routing is legal...
+Completed routing consistency check successfully.
+
+Serial number (magic cookie) for the routing is: -623387
+Circuit successfully routed with a channel width factor of 26.
+
+
+Average number of bends per net: 5.92857  Maximum # of bends: 11
+
+Number of routed nets (nonglobal): 14
+Wirelength results (in units of 1 clb segments)...
+	Total wirelength: 117, average net length: 8.35714
+	Maximum net length: 14
+
+Wirelength results in terms of physical segments...
+	Total wiring segments used: 117, average wire segments per net: 8.35714
+	Maximum segments used by a net: 14
+	Total local nets with reserved CLB opins: 0
+
+X - Directed channels: j	max occ	av_occ		capacity
+0	10	9.00000  	26
+1	14	14.0000  	26
+2	10	7.50000  	26
+
+Y - Directed channels: i	max occ	av_occ		capacity
+0	13	10.0000  	26
+1	13	10.5000  	26
+2	10	7.50000  	26
+
+Total tracks in x-direction: 78, in y-direction: 78
+
+Logic area (in minimum width transistor areas, excludes I/Os and empty grid tiles)...
+	Total logic block area (Warning, need to add pitch of routing to blocks with height > 3): 60000
+	Total used logic block area: 45000
+
+Routing area (in minimum width transistor areas)...
+	Total routing area: 22331.6, per logic tile: 5582.89
+
+Segment usage by type (index):
+Segment type       Fractional utilization
+------------       ----------------------
+       0                  0.375
+
+Segment usage by length:
+Segment length       Fractional utilization
+--------------       ----------------------
+        1                   0.375
+
+Nets on critical path: 3 normal, 0 global.
+Total logic delay: 6.9637e-10 (s), total net delay: 1.79844e-09 (s)
+Final critical path: 2.49481 ns
+f_max: 400.832 MHz
+
+Least slack in design: -2.49481 ns
+
+Routing took 0.004496 seconds.
+The entire flow of VPR took 0.03389 seconds.

@@ -1,0 +1,49 @@
+# Benchmark "add4" written by ABC on Wed Jul 30 16:54:17 2014
+.model add4
+.inputs top^a~0 top^a~1 top^a~2 top^a~3 top^b~0 top^b~1 top^b~2 top^b~3
+.outputs top^z~0 top^z~1 top^z~2 top^z~3 top^z~4
+.names top^a~0 top^b~0 top^z~0
+01 1
+10 1
+.names top^a~0 top^a~1 top^a~2 top^b~0 top^b~1 top^b~2 n18
+1111-- 1
+11-1-1 1
+1-111- 1
+1--111 1
+-11-1- 1
+-1--11 1
+--1--1 1
+.names top^a~3 top^b~3 n18 top^z~4
+11- 1
+1-1 1
+-11 1
+.names top^a~0 top^a~1 top^b~0 top^b~1 top^z~1
+00-1 1
+01-0 1
+1010 1
+1111 1
+-001 1
+-100 1
+.names top^a~0 top^a~1 top^a~2 top^b~0 top^b~1 top^b~2 top^z~2
+000--1 1
+001--0 1
+0-0-01 1
+0-1-00 1
+1101-0 1
+1111-1 1
+1-0110 1
+1-1111 1
+-000-1 1
+-00-01 1
+-010-0 1
+-01-00 1
+-10-10 1
+-11-11 1
+--0001 1
+--1000 1
+.names top^a~3 top^b~3 n18 top^z~3
+001 1
+010 1
+100 1
+111 1
+.end

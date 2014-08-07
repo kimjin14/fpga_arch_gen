@@ -1,0 +1,37 @@
+The following slacks have been normalized to be non-negative by relaxing the required times to the maximum arrival time.
+
+Largest slack in design: -1.2733e-09
+Smallest slack in design: -2.49481e-09
+Total slack in design: -4.53043e-08
+Total negative slack: 4.53043e-08
+
+
+Range		-2.5e-09 to -2.3e-09	-2.3e-09 to -2.0e-09	-2.0e-09 to -1.8e-09	-1.8e-09 to -1.5e-09	-1.5e-09 to -1.3e-09	Not analysed
+Slacks in range		5			4			6			5			4			0
+
+Net #	Driver_tnode	to_node	Slack
+
+    0	  110		    0	-2.04309e-09
+			  116	-1.34858e-09
+    1	  104		    1	-2.49481e-09
+			  117	-1.80031e-09
+    2	  107		    2	-2.04309e-09
+			   64	-1.7259e-09
+			  119	-1.72502e-09
+    3	   95		    3	-2.04309e-09
+			  121	-1.34858e-09
+    4	   98		    4	-2.41864e-09
+			   63	-1.57533e-09
+			  118	-1.57445e-09
+    5	  181		    5	-1.87648e-09
+			   62	-1.95177e-09
+    6	  178		    6	-1.87559e-09
+			   60	-1.2733e-09
+    7	  101		    7	-2.34424e-09
+			  120	-1.80031e-09
+    8	    8		   54	-2.17648e-09
+    9	    9		   61	-2.49481e-09
+   10	   66		   57	-2.49481e-09
+   11	   65		  175	-1.7259e-09
+   12	  123		  113	-1.80031e-09
+   13	  122		  172	-1.34947e-09
